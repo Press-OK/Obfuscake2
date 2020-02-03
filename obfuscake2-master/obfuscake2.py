@@ -15,6 +15,8 @@ from configmanager import ConfigManager
 # Main method
 #=============
 def Main():
+    
+    # Sample usage used in a demo... ----
     em = EventManager()
 
     recordedEvents = em.Record(10)
@@ -22,6 +24,7 @@ def Main():
     em.WriteToFile()
 
     em.Play()
+    # ----
 
 #==========================================================
 # Entry point of the program, handles command args:
